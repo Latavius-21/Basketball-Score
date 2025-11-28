@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score{
+   display: flex;
+   border-radius: 4px ; 
+   width: 155px;
+   height:120px; 
+   justify-content: center;
+   align-items: center;
+    background-color: #080001;
+   
+
+
+    
+}
+
+.score h1 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: normal; /* Forces the text to be Regular (400) */
+    font-style: normal;  /* Ensures it is not Italic */
+    font-size: 90px;
+    margin: 0px;
+    color: #F94F6D;
+  
+    /* ADD THESE LINES */
+    /* Tightens the invisible box around the number */
+     line-height: 1;  
+    padding-top: 15px;  
+     /* Manually pushes the number down. Adjust 15px until it looks perfect */
+}
+
+.scorepart{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; /* Forces the text to be Regular (400) */
+    font-style: normal;  /* Ensures it is not Italic */
+    font-size: 40px;
+    margin: 0px;
+    color: #EEEEEE;
+}
+.scorepart h3{
+    margin-bottom: 21px ;
+}
+
+.btn{
+    margin-top: 26px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: normal; /* Forces the text to be Regular (400) */
+    font-style: normal;
+    font-size: 18px; 
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color:#9AABD8;
+    background-color:#1B244A;
+    border: 2px solid;
+    border-radius: 5px;
+    
+}
+.buttons {
+    display: flex;       /* Enables flexbox */
+    justify-content: space-between; /* Spreads them out, or use 'center' */
+    gap: 11px;           /* Adds a small space between the buttons */
+}
