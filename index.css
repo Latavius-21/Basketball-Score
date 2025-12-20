@@ -24,8 +24,8 @@ body {
 
 .score h1 {
     font-family: 'Cursed Timer ULiL', sans-serif;
-    font-weight: normal; /* Forces the text to be Regular (400) */
-    font-style: normal;  /* Ensures it is not Italic */
+    font-weight: bold; /* Forces the text to be Regular (400) */
+    font-style: normal; 
     font-size: 90px;
     margin: 0px;
     color: #F94F6D;
